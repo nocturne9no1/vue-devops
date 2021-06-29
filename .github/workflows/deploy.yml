@@ -50,9 +50,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Test unit
-        run: yarn run test:unit
-
       - name: Build page
         run: yarn build
         env:
